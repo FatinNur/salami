@@ -1,0 +1,64 @@
+*{
+    font-family: 'Baloo Chettan 2', cursive;
+    box-sizing: border-box;
+}
+body{
+    background-color: #111;
+}
+.icon{
+    display: inline;
+    height: 20px;
+    
+}
+h1{
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 25px;
+    
+}
+.flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fix{
+    width: 100%;
+    background: #111;
+    top: 0;
+    left: 0;
+    position: fixed;
+    
+}
+.box{
+    background: #212529;
+    height: auto;
+    width: 100%;
+    
+}
+.button{
+    font-size: 20px;
+    text-align: center;
+}
+.close{
+    width: 80px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.details-body{
+    background: #111;
+}
+
+.mo-head{
+    margin-top: 15px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.headline{
+    padding: 20px;
+}
+.error-text{
+    font-size: 30px;
+}
